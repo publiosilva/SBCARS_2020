@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SBCARS 2020</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("body").scrollspy({
+          target: "#mainNavBar",
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <nav id="mainNavBar" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">SBCARS 2020</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#abstract"
+                >Abstract <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li><a href="#downloads">Downloads</a></li>
+            <li><a href="#authors">Authors</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container container-gral">
+      <div class="page-title">
+        <h1>
+          Classifying Feature Models Maintainability based on Machine Learning
+          Algorithms
+        </h1>
+      </div>
+
+      <span
+        >This website contains complementary data to the submitted paper.</span
+      >
+
+      <h3 id="abstract" class="page-header">Abstract</h3>
+
+      <p class="text-justify">
+        Maintenance in the context of SPLs is a topic of interest, and that
+        still needs further investigation. There are several ways to evaluate
+        the maintainability of a feature model (FM), one of which is a manual or
+        automated analysis of quality measures. However, the use of measures
+        does not allow to evaluate the FM quality as a whole, as each measure
+        considers a specific characteristic of FM. In general, the measures have
+        wide ranges of values and do not have a clear definition of what is
+        appropriate and inappropriate. In this context, the goal of this work is
+        to investigate the use of machine learning techniques to classify the
+        feature model maintainability. The research questions investigated in
+        the study were: (i) how could machine learning techniques aid to
+        classify FMs maintainability; and, (ii) which FM classification model
+        has the best accuracy and precision. In this work, we proposed an
+        approach for FM maintainability classification using machine learning
+        technics. For that, we used a dataset of 15 FM maintainability measures
+        calculated for 326 FMs, and we used machine learning algorithms to
+        clustering. After this, we used thresholds to evaluate the general
+        maintainability of each cluster. With this, we built 5 maintainability
+        classification models that have been evaluated with the accuracy and
+        precision metrics.
+      </p>
+
+      <h3 id="downloads" class="page-header">Downloads</h3>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Artefact</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>
+              <a
+                href="download/training_dataset.csv"
+                download="training_dataset.csv"
+                target="_blank"
+              >
+                Training Dataset
+              </a>
+            </td>
+            <td>
+              Dataset used to train clustering algorithms
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>
+              <a
+                href="download/test_dataset.csv"
+                download="test_dataset.csv"
+                target="_blank"
+              >
+                Test Dataset
+              </a>
+            </td>
+            <td>
+              Dataset used to validate the classification models of the
+              maintainability of models of features through the metrics accuracy
+              and precision
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>
+              <a
+                href="download/feature_model_clustering_kmeans_notebook.zip"
+                download="feature_model_clustering_kmeans_notebook.zip"
+                target="_blank"
+              >
+                Jupyter notebook for K-means algorithm training
+              </a>
+            </td>
+            <td>
+              Jupyter notebook used to train the K-means clustering algorithm
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>
+              <a
+                href="download/feature_model_clustering_dbscan_notebook.zip"
+                download="feature_model_clustering_dbscan_notebook.zip"
+                target="_blank"
+              >
+                Jupyter notebook for DBSCAN algorithm training
+              </a>
+            </td>
+            <td>
+              Jupyter notebook used to train the DBSCAN clustering algorithm
+            </td>
+          </tr>
+          <tr>
+            <th>5</th>
+            <td>
+              <a
+                href="download/feature_model_clustering_agglomerative_notebook.zip"
+                download="feature_model_clustering_agglomerative_notebook.zip"
+                target="_blank"
+              >
+                Jupyter notebook for Hierarquical Agglomerative Clustering
+                algorithm training
+              </a>
+            </td>
+            <td>
+              Jupyter notebook used to train the Hierarquical Agglomerative
+              Clustering algorithm
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>
+              <a
+                href="download/labeling_script.zip"
+                download="labeling_script.zip"
+                target="_blank"
+              >
+                Feature model clusters labeling script
+              </a>
+            </td>
+            <td>
+              Script created to label feature model clusters using the
+              thresholds derived with the Vale's method
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>
+              <a
+                href="download/experts_form_responses.csv"
+                download="experts_form_responses.csv"
+                target="_blank"
+              >
+                Experts form responses
+              </a>
+            </td>
+            <td>
+              Experts responses to the feature models maintainability assessment
+              form in the test dataset
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="page-header" id="authors">Authors</h3>
+
+      <p>Any question/suggestion please contact the authors of this work.</p>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>E-mail</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Anonymous Authors</td>
+            <td>anonymous@email.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-103030276-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
+</html>

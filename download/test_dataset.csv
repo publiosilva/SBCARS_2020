@@ -1,0 +1,24 @@
+Feature Model,Feature Model Link,Number of features (NF),Number of Mandatory Features (NM),Number of top features (NTop),Number of leaf Features (NLeaf),Depth of tree Max (DT Max),Cognitive Complexity of a Feature Model (CogC),Feature EXtendibility (FEX),Flexibility of configuration (FoC),Single Cyclic Dependent Features (SCDF),Multiple Cyclic Dependent Features (MCDF),Number of Features Referenced in Constraints Mean (Rden),Ratio of variability (RoV),Number of valid configurations (NVC),Number Groups Or (NGOr),Number Groups XOR (NGXOr)
+Android51_Contrast,https://dymmerufc.github.io/#/feature-model-list?type=spl,41,12,3,25,10,5,25,0.12195121951219512,0,0,0,2.142857142857143,26400,0,5
+Android51_TextSize,https://dymmerufc.github.io/#/feature-model-list?type=spl,33,8,2,22,10,5,22,0.030303030303030304,0,0,0,2.3125,1000000000,0,5
+Android60_Contrast,https://dymmerufc.github.io/#/feature-model-list?type=spl,42,12,3,26,10,5,26,0.14285714285714285,0,0,0,2.1904761904761907,4096,0,5
+Android60_TextSize,https://dymmerufc.github.io/#/feature-model-list?type=spl,10,2,2,5,7,1,5,0.3,0,0,0,1.6666666666666667,3580200,0,1
+E-Shop_mjaved_UN,https://dymmerufc.github.io/#/feature-model-list?type=spl,10,4,9,9,4,0,9,0.5,0,0,0,9,82944,0,0
+Fórum de Discussão do AVA SOLAR,https://dymmerufc.github.io/#/feature-model-list?type=spl,40,16,7,27,8,5,27,0.225,0,0,0,2.4444444444444446,254,0,5
+FQAs v2 7ctcs,https://dymmerufc.github.io/#/feature-model-list?type=spl,178,32,1,124,12,43,126,0.09550561797752809,2,0,14,2.268041237113402,13680,14,29
+Home_Automation_System,https://dymmerufc.github.io/#/feature-model-list?type=spl,17,1,3,13,6,3,13,0.17647058823529413,0,0,0,2.7142857142857144,2,3,0
+IOS5_Contrast,https://dymmerufc.github.io/#/feature-model-list?type=spl,16,0,1,10,9,1,10,0.625,0,0,0,2.2857142857142856,60,0,1
+IOS5_TextSize,https://dymmerufc.github.io/#/feature-model-list?type=spl,16,5,1,7,9,1,7,0.375,0,0,0,1.6,840,0,1
+Mac1010_Contrast,https://dymmerufc.github.io/#/feature-model-list?type=spl,45,25,2,25,11,2,25,0.2,0,0,0,2.090909090909091,12288,0,2
+Mobile Media v2,https://dymmerufc.github.io/#/feature-model-list?type=spl,43,12,14,31,8,7,31,0.23255813953488372,0,0,6,2.5789473684210527,32,4,3
+NoEsCameron (SPL),https://dymmerufc.github.io/#/feature-model-list?type=spl,25,11,7,18,7,3,18,0.2,0,0,9,2.7,12,3,0
+PetSof,https://dymmerufc.github.io/#/feature-model-list?type=spl,21,16,3,15,6,0,15,0.19047619047619047,0,0,26,3.3333333333333335,2128896,0,0
+RTBB,https://dymmerufc.github.io/#/feature-model-list?type=spl,29,11,5,19,7,5,19,0.034482758620689655,0,0,0,2.2,13200,4,1
+SOLAR VLE Discussion Forum,https://dymmerufc.github.io/#/feature-model-list?type=spl,40,16,7,27,8,5,36,0.225,9,0,19,2.4444444444444446,480,0,5
+Ubuntu1204_Contrast,https://dymmerufc.github.io/#/feature-model-list?type=spl,49,10,3,30,10,5,30,0.1836734693877551,0,0,0,2.2083333333333335,13056,0,5
+Ubuntu1204_TextSize,https://dymmerufc.github.io/#/feature-model-list?type=spl,17,4,1,6,11,2,6,0.35294117647058826,0,0,0,1.3846153846153846,76,0,2
+Ubuntu1410_Contrast,https://dymmerufc.github.io/#/feature-model-list?type=spl,43,6,4,25,10,5,25,0.27906976744186046,0,0,0,2.0434782608695654,379260,0,5
+Ubuntu1410_TextSize,https://dymmerufc.github.io/#/feature-model-list?type=spl,13,0,2,4,10,1,4,0.7692307692307693,0,0,0,1.3,44100,0,1
+Windows70_Contrast,https://dymmerufc.github.io/#/feature-model-list?type=spl,59,15,1,40,13,7,40,0.1694915254237288,0,0,0,2.5,32,0,7
+Windows70_TextSize,https://dymmerufc.github.io/#/feature-model-list?type=spl,16,14,1,6,9,0,6,0.0625,0,0,0,1.5,5776,0,0
+Windows81_Contrast,https://dymmerufc.github.io/#/feature-model-list?type=spl,83,32,1,51,13,8,51,0.18072289156626506,0,0,0,2.25,16,0,8
